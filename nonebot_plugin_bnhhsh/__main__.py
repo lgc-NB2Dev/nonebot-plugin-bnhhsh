@@ -1,4 +1,4 @@
-import bnhhsh
+from .bnhhsh.bnhhsh import dp
 from nonebot import on_regex
 from nonebot.adapters.onebot.v11 import MessageEvent, MessageSegment
 
@@ -14,7 +14,7 @@ async def _(event: MessageEvent):
 
         w = w.lower()
         if w.isalpha():
-            translated[w] = bnhhsh.dp(w)
+            translated[w] = dp(w)
 
     if translated:
         await matcher.finish(
