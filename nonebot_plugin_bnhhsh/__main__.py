@@ -2,7 +2,7 @@ from .bnhhsh.bnhhsh import dp
 from nonebot import on_regex
 from nonebot.adapters.onebot.v11 import MessageEvent, MessageSegment
 
-matcher = on_regex(r"[a-zA-Z\s]+")
+matcher = on_regex(r"^[a-zA-Z\s]+$")
 
 
 @matcher.handle()
