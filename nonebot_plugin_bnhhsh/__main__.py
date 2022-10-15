@@ -3,6 +3,7 @@ from nonebot.adapters.onebot.v11 import MessageEvent, MessageSegment
 from unvcode import unvcode
 
 from .bnhhsh.bnhhsh import dp
+from .config import config
 
 matcher = on_regex(r"^[a-zA-Z\s]+$")
 
@@ -24,7 +25,7 @@ async def _(event: MessageEvent):
         w = w.lower()
         if w.isalpha():
             origin = dp(w)
-            result, mse = unvcode(origin, mse=0.2)
+            result, mse = unvcode(origin, mse=config.bnhhsh_unv_mse)
             translated[w] = result
 
             for l in [
