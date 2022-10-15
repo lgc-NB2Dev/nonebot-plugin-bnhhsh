@@ -135,6 +135,10 @@ Telegram：[@lgc2333](https://t.me/lgc2333)
 
 ## 📝 更新日志
 
-### 1.0.1
+### 0.1.2
 
 - 加入[unvcode](https://github.com/RimoChan/unvcode)反和谐，让Bot再色色也不会让勾八tx自动检测～
+
+### 0.1.1
+
+- 修复正则错误匹配**含有**英文的消息而不是**纯**英文消息
