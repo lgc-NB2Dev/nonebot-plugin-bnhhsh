@@ -25,7 +25,7 @@ jobs:
         run: >-
           python -m poetry build
       - name: Upload dist as Artifact
-      - uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
           name: build
           path: build/
