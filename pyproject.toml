@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-bnhhsh"
-version = "0.1.2"
+version = "0.1.2.post0"
 description = "Se-se!"
 authors = ["student_2333 <lgc2333@126.com>"]
 license = "MIT"
