@@ -27,8 +27,8 @@ jobs:
       - name: Upload dist as Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: build
-          path: build/
+          name: dist
+          path: dist/
       - name: Publish to PyPI
         if: startsWith(github.ref, 'refs/tags')
         run: python -m poetry publish -u "__token__" -p ${{ secrets.PYPI_API_TOKEN }}
