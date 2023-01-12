@@ -75,7 +75,7 @@ _✨ 「不能好好说话！」 ✨_
 <summary>从 github 安装</summary>
 在 nonebot2 项目的插件目录下, 打开命令行, 输入以下命令克隆此储存库
 
-    git clone https://github.com/lgc2333/nonebot-plugin-bnhhsh.git
+    git clone https://github.com/lgc2333/nonebot-plugin-bnhhsh.git --recursive
 
 打开 nonebot2 项目的 `bot.py` 文件, 在其中写入
 
