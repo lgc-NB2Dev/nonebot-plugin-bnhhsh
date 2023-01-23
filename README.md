@@ -28,7 +28,7 @@ _✨ 「不能好好说话！」 ✨_
 
 今晚看到莉沫酱的一个奇奇怪怪的项目[bnhhsh](https://github.com/RimoChan/bnhhsh)，所以心血来潮做了个插件玩！
 
-这个项目也有受到莉沫酱TG群里的黄巍Bot启发，如果想去玩的话 -> [点这里](https://t.me/+0mv0KLEw4TY5Mzdl)
+这个项目也有受到莉沫酱TG群里的黄巍Bot启发
 
 ## 💿 安装
 
