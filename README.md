@@ -24,6 +24,8 @@ _✨ 「不能好好说话！」 ✨_
 
 </div>
 
+### [nonebot-plugin-rimofun](https://github.com/lgc2333/nonebot-plugin-rimofun) 已代替本插件功能，本插件将不再维护
+
 ## 📖 介绍
 
 今晚看到莉沫酱的一个奇奇怪怪的项目[bnhhsh](https://github.com/RimoChan/bnhhsh)，所以心血来潮做了个插件玩！
